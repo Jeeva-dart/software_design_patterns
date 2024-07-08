@@ -5,14 +5,19 @@
 4. Clean architecture is one of the most powerful solutions to build clean apps with independent data layers that multiple teams can work on the resulting app would also be scalable readable testable and can be easily maintained at any time.
 
 * DATA LAYER
-   * Entities
-
+   * repositories
+   * data source (remote, local)
+   * models
+   
 * DOMAIN LAYER
-   * Repositories
-   * Models
-   * Use Cases
-   * Models
+   * entities
+   * repository interfaces (Abstract classes, contracts)
+   * use cases (Signup, login)
 
 * PRESENTATION LAYER
-   * View Model
-   * Views
+   * pages
+   * state management (provider, bloc)
+   * widgets
+
+Entities:-
+  Entities are business objects of an application or a system
